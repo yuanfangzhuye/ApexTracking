@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  DataCollector
+//
+//  Created by yulin chi on 2018/9/26.
+//  Copyright © 2018年 yulin chi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <objc/runtime.h>
+#import "APEXDataCollectSDK.h"
+#import "PEXMethodSwizzlingUtil.h"
+#import "PEXLogger.h"
+#import "PEXViewPathAnalytor.h"
+#import "Macro.h"
+#import "PEXCommonUtil.h"
+#import "PEXQueue.h"
+#import "PEX_Aspects.h"
+#import "PEXBaseModel.h"
+#import "NSObject+Dictionary.h"
+
+#endif /* PrefixHeader_pch */
+

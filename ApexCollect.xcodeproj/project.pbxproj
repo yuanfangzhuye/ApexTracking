@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E71971A3217D742B0078091F /* ApexCollectSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E71971A4217D742C0078091F /* Build configuration list for PBXAggregateTarget "ApexCollectSDK" */;
+			buildPhases = (
+				E71971A7217D74300078091F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ApexCollectSDK;
+			productName = ApexCollectSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		E715417F2181676D00914999 /* UINavigationController+PEX.h in Headers */ = {isa = PBXBuildFile; fileRef = E715417D2181676D00914999 /* UINavigationController+PEX.h */; };
+		E71541802181676D00914999 /* UINavigationController+PEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E715417E2181676D00914999 /* UINavigationController+PEX.m */; };
+		E7197148217D72F60078091F /* ApexCollect.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197146217D72F60078091F /* ApexCollect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E719717C217D735A0078091F /* PEXQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197150217D73590078091F /* PEXQueue.m */; };
+		E719717D217D735A0078091F /* PEXQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197151217D73590078091F /* PEXQueue.h */; };
+		E719717E217D735A0078091F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197153217D73590078091F /* Reachability.m */; };
+		E719717F217D735A0078091F /* PEXViewPathAnalytor.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197154217D73590078091F /* PEXViewPathAnalytor.m */; };
+		E7197180217D735A0078091F /* PEXMethodSwizzlingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197155217D73590078091F /* PEXMethodSwizzlingUtil.m */; };
+		E7197181217D735A0078091F /* PEXViewPathFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197156217D73590078091F /* PEXViewPathFilter.h */; };
+		E7197182217D735A0078091F /* PEX_Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197157217D73590078091F /* PEX_Aspects.h */; };
+		E7197183217D735A0078091F /* PEXCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197158217D73590078091F /* PEXCommonUtil.m */; };
+		E7197184217D735A0078091F /* PEXMethodSwizzlingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197159217D73590078091F /* PEXMethodSwizzlingUtil.h */; };
+		E7197185217D735A0078091F /* PEXViewPathAnalytor.h in Headers */ = {isa = PBXBuildFile; fileRef = E719715A217D73590078091F /* PEXViewPathAnalytor.h */; };
+		E7197186217D735A0078091F /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = E719715B217D73590078091F /* Reachability.h */; };
+		E7197187217D735A0078091F /* PEX_Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = E719715C217D73590078091F /* PEX_Aspects.m */; };
+		E7197188217D735A0078091F /* PEXViewPathFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E719715D217D73590078091F /* PEXViewPathFilter.m */; };
+		E7197189217D735A0078091F /* PEXCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E719715E217D73590078091F /* PEXCommonUtil.h */; };
+		E719718A217D735A0078091F /* PEXLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E719715F217D73590078091F /* PEXLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E719718B217D735A0078091F /* PEXEventBasicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197161217D73590078091F /* PEXEventBasicModel.m */; };
+		E719718C217D735A0078091F /* PEXEventBasicModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197162217D73590078091F /* PEXEventBasicModel.h */; };
+		E719718D217D735A0078091F /* PEXLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197163217D73590078091F /* PEXLogger.m */; };
+		E719718E217D735A0078091F /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = E7197164217D73590078091F /* PrefixHeader.pch */; };
+		E719718F217D735A0078091F /* PEXViewControllerDataTrackerProtocal.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197166217D735A0078091F /* PEXViewControllerDataTrackerProtocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7197190217D735A0078091F /* APEXDataCollectSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197167217D735A0078091F /* APEXDataCollectSDK.m */; };
+		E7197191217D735A0078091F /* APEXDataCollectSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197168217D735A0078091F /* APEXDataCollectSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7197192217D735A0078091F /* Macro.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197169217D735A0078091F /* Macro.h */; };
+		E7197193217D735A0078091F /* UIControl+PEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E719716B217D735A0078091F /* UIControl+PEX.m */; };
+		E7197194217D735A0078091F /* UIApplication+PEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E719716C217D735A0078091F /* UIApplication+PEX.m */; };
+		E7197195217D735A0078091F /* UITableViewCell+PEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E719716D217D735A0078091F /* UITableViewCell+PEX.m */; };
+		E7197196217D735A0078091F /* UIView+Gesture.h in Headers */ = {isa = PBXBuildFile; fileRef = E719716E217D735A0078091F /* UIView+Gesture.h */; };
+		E7197197217D735A0078091F /* UIViewController+PEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E719716F217D735A0078091F /* UIViewController+PEX.m */; };
+		E7197198217D735A0078091F /* UICollectionView+PEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197170217D735A0078091F /* UICollectionView+PEX.m */; };
+		E7197199217D735A0078091F /* UITableView+PEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197171217D735A0078091F /* UITableView+PEX.m */; };
+		E719719A217D735A0078091F /* UIControl+PEX.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197172217D735A0078091F /* UIControl+PEX.h */; };
+		E719719B217D735A0078091F /* UIApplication+PEX.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197173217D735A0078091F /* UIApplication+PEX.h */; };
+		E719719C217D735A0078091F /* UIViewController+PEX.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197174217D735A0078091F /* UIViewController+PEX.h */; };
+		E719719D217D735A0078091F /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E7197175217D735A0078091F /* UIView+Gesture.m */; };
+		E719719E217D735A0078091F /* UITableViewCell+PEX.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197176217D735A0078091F /* UITableViewCell+PEX.h */; };
+		E719719F217D735A0078091F /* UITableView+PEX.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197177217D735A0078091F /* UITableView+PEX.h */; };
+		E71971A0217D735A0078091F /* UICollectionView+PEX.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197178217D735A0078091F /* UICollectionView+PEX.h */; };
+		E71971A1217D735A0078091F /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = E719717A217D735A0078091F /* NSString+MD5.h */; };
+		E71971A2217D735A0078091F /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E719717B217D735A0078091F /* NSString+MD5.m */; };
+		E71971B3217ED0BE0078091F /* PEXKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = E71971B1217ED0BE0078091F /* PEXKeyChain.h */; };
+		E71971B4217ED0BE0078091F /* PEXKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = E71971B2217ED0BE0078091F /* PEXKeyChain.m */; };
+		E71971B7217EEE640078091F /* PEXBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E71971B5217EEE640078091F /* PEXBaseModel.h */; };
+		E71971B8217EEE640078091F /* PEXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E71971B6217EEE640078091F /* PEXBaseModel.m */; };
+		E71971BB217EF0420078091F /* PEXViewPageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E71971B9217EF0420078091F /* PEXViewPageModel.h */; };
+		E71971BC217EF0420078091F /* PEXViewPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E71971BA217EF0420078091F /* PEXViewPageModel.m */; };
+		E71971BF217F13000078091F /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = E71971BD217F13000078091F /* NSObject+Dictionary.h */; };
+		E71971C0217F13000078091F /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E71971BE217F13000078091F /* NSObject+Dictionary.m */; };
+		E7EA19E72182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.h in Headers */ = {isa = PBXBuildFile; fileRef = E7EA19E52182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.h */; };
+		E7EA19E82182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EA19E62182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.m */; };
+		E7EA19F52186B4F2002F4507 /* PEXViewExposureRateAnalytor.h in Headers */ = {isa = PBXBuildFile; fileRef = E7EA19F32186B4F2002F4507 /* PEXViewExposureRateAnalytor.h */; };
+		E7EA19F62186B4F2002F4507 /* PEXViewExposureRateAnalytor.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EA19F42186B4F2002F4507 /* PEXViewExposureRateAnalytor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E715417D2181676D00914999 /* UINavigationController+PEX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PEX.h"; sourceTree = "<group>"; };
+		E715417E2181676D00914999 /* UINavigationController+PEX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PEX.m"; sourceTree = "<group>"; };
+		E7197143217D72F60078091F /* ApexCollect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApexCollect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7197146217D72F60078091F /* ApexCollect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApexCollect.h; sourceTree = "<group>"; };
+		E7197147217D72F60078091F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7197150217D73590078091F /* PEXQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEXQueue.m; sourceTree = "<group>"; };
+		E7197151217D73590078091F /* PEXQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEXQueue.h; sourceTree = "<group>"; };
+		E7197153217D73590078091F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E7197154217D73590078091F /* PEXViewPathAnalytor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEXViewPathAnalytor.m; sourceTree = "<group>"; };
+		E7197155217D73590078091F /* PEXMethodSwizzlingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEXMethodSwizzlingUtil.m; sourceTree = "<group>"; };
+		E7197156217D73590078091F /* PEXViewPathFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEXViewPathFilter.h; sourceTree = "<group>"; };
+		E7197157217D73590078091F /* PEX_Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEX_Aspects.h; sourceTree = "<group>"; };
+		E7197158217D73590078091F /* PEXCommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEXCommonUtil.m; sourceTree = "<group>"; };
+		E7197159217D73590078091F /* PEXMethodSwizzlingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEXMethodSwizzlingUtil.h; sourceTree = "<group>"; };
+		E719715A217D73590078091F /* PEXViewPathAnalytor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEXViewPathAnalytor.h; sourceTree = "<group>"; };
+		E719715B217D73590078091F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E719715C217D73590078091F /* PEX_Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEX_Aspects.m; sourceTree = "<group>"; };
+		E719715D217D73590078091F /* PEXViewPathFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEXViewPathFilter.m; sourceTree = "<group>"; };
+		E719715E217D73590078091F /* PEXCommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEXCommonUtil.h; sourceTree = "<group>"; };
+		E719715F217D73590078091F /* PEXLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEXLogger.h; sourceTree = "<group>"; };
+		E7197161217D73590078091F /* PEXEventBasicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEXEventBasicModel.m; sourceTree = "<group>"; };
+		E7197162217D73590078091F /* PEXEventBasicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEXEventBasicModel.h; sourceTree = "<group>"; };
+		E7197163217D73590078091F /* PEXLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEXLogger.m; sourceTree = "<group>"; };
+		E7197164217D73590078091F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E7197166217D735A0078091F /* PEXViewControllerDataTrackerProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEXViewControllerDataTrackerProtocal.h; sourceTree = "<group>"; };
+		E7197167217D735A0078091F /* APEXDataCollectSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEXDataCollectSDK.m; sourceTree = "<group>"; };
+		E7197168217D735A0078091F /* APEXDataCollectSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEXDataCollectSDK.h; sourceTree = "<group>"; };
+		E7197169217D735A0078091F /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		E719716B217D735A0078091F /* UIControl+PEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PEX.m"; sourceTree = "<group>"; };
+		E719716C217D735A0078091F /* UIApplication+PEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+PEX.m"; sourceTree = "<group>"; };
+		E719716D217D735A0078091F /* UITableViewCell+PEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+PEX.m"; sourceTree = "<group>"; };
+		E719716E217D735A0078091F /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
+		E719716F217D735A0078091F /* UIViewController+PEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PEX.m"; sourceTree = "<group>"; };
+		E7197170217D735A0078091F /* UICollectionView+PEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+PEX.m"; sourceTree = "<group>"; };
+		E7197171217D735A0078091F /* UITableView+PEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PEX.m"; sourceTree = "<group>"; };
+		E7197172217D735A0078091F /* UIControl+PEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PEX.h"; sourceTree = "<group>"; };
+		E7197173217D735A0078091F /* UIApplication+PEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+PEX.h"; sourceTree = "<group>"; };
+		E7197174217D735A0078091F /* UIViewController+PEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PEX.h"; sourceTree = "<group>"; };
+		E7197175217D735A0078091F /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
+		E7197176217D735A0078091F /* UITableViewCell+PEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+PEX.h"; sourceTree = "<group>"; };
+		E7197177217D735A0078091F /* UITableView+PEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+PEX.h"; sourceTree = "<group>"; };
+		E7197178217D735A0078091F /* UICollectionView+PEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+PEX.h"; sourceTree = "<group>"; };
+		E719717A217D735A0078091F /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		E719717B217D735A0078091F /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		E71971B1217ED0BE0078091F /* PEXKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEXKeyChain.h; sourceTree = "<group>"; };
+		E71971B2217ED0BE0078091F /* PEXKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEXKeyChain.m; sourceTree = "<group>"; };
+		E71971B5217EEE640078091F /* PEXBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEXBaseModel.h; sourceTree = "<group>"; };
+		E71971B6217EEE640078091F /* PEXBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEXBaseModel.m; sourceTree = "<group>"; };
+		E71971B9217EF0420078091F /* PEXViewPageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEXViewPageModel.h; sourceTree = "<group>"; };
+		E71971BA217EF0420078091F /* PEXViewPageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEXViewPageModel.m; sourceTree = "<group>"; };
+		E71971BD217F13000078091F /* NSObject+Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary.h"; sourceTree = "<group>"; };
+		E71971BE217F13000078091F /* NSObject+Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
+		E7EA19E52182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEXViewPageVisibilityAnalytor.h; sourceTree = "<group>"; };
+		E7EA19E62182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEXViewPageVisibilityAnalytor.m; sourceTree = "<group>"; };
+		E7EA19F32186B4F2002F4507 /* PEXViewExposureRateAnalytor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEXViewExposureRateAnalytor.h; sourceTree = "<group>"; };
+		E7EA19F42186B4F2002F4507 /* PEXViewExposureRateAnalytor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEXViewExposureRateAnalytor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7197140217D72F60078091F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7197139217D72F60078091F = {
+			isa = PBXGroup;
+			children = (
+				E7197145217D72F60078091F /* ApexCollect */,
+				E7197144217D72F60078091F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7197144217D72F60078091F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7197143217D72F60078091F /* ApexCollect.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7197145217D72F60078091F /* ApexCollect */ = {
+			isa = PBXGroup;
+			children = (
+				E719714E217D734F0078091F /* Classes */,
+				E7197146217D72F60078091F /* ApexCollect.h */,
+				E7197164217D73590078091F /* PrefixHeader.pch */,
+				E7197169217D735A0078091F /* Macro.h */,
+				E719715F217D73590078091F /* PEXLogger.h */,
+				E7197163217D73590078091F /* PEXLogger.m */,
+				E7197147217D72F60078091F /* Info.plist */,
+			);
+			path = ApexCollect;
+			sourceTree = "<group>";
+		};
+		E719714E217D734F0078091F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7197168217D735A0078091F /* APEXDataCollectSDK.h */,
+				E7197167217D735A0078091F /* APEXDataCollectSDK.m */,
+				E719716A217D735A0078091F /* AOPCategory */,
+				E7197179217D735A0078091F /* Catogory */,
+				E7197160217D73590078091F /* Model */,
+				E7197165217D735A0078091F /* Protocal */,
+				E719714F217D73590078091F /* Queue */,
+				E7197152217D73590078091F /* Util */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E719714F217D73590078091F /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				E7197150217D73590078091F /* PEXQueue.m */,
+				E7197151217D73590078091F /* PEXQueue.h */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		E7197152217D73590078091F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E71971B1217ED0BE0078091F /* PEXKeyChain.h */,
+				E71971B2217ED0BE0078091F /* PEXKeyChain.m */,
+				E7197159217D73590078091F /* PEXMethodSwizzlingUtil.h */,
+				E7197155217D73590078091F /* PEXMethodSwizzlingUtil.m */,
+				E719715A217D73590078091F /* PEXViewPathAnalytor.h */,
+				E7197154217D73590078091F /* PEXViewPathAnalytor.m */,
+				E7EA19E52182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.h */,
+				E7EA19E62182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.m */,
+				E7EA19F32186B4F2002F4507 /* PEXViewExposureRateAnalytor.h */,
+				E7EA19F42186B4F2002F4507 /* PEXViewExposureRateAnalytor.m */,
+				E719715B217D73590078091F /* Reachability.h */,
+				E7197153217D73590078091F /* Reachability.m */,
+				E7197157217D73590078091F /* PEX_Aspects.h */,
+				E719715C217D73590078091F /* PEX_Aspects.m */,
+				E719715D217D73590078091F /* PEXViewPathFilter.m */,
+				E7197156217D73590078091F /* PEXViewPathFilter.h */,
+				E719715E217D73590078091F /* PEXCommonUtil.h */,
+				E7197158217D73590078091F /* PEXCommonUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E7197160217D73590078091F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E71971B5217EEE640078091F /* PEXBaseModel.h */,
+				E71971B6217EEE640078091F /* PEXBaseModel.m */,
+				E7197162217D73590078091F /* PEXEventBasicModel.h */,
+				E7197161217D73590078091F /* PEXEventBasicModel.m */,
+				E71971B9217EF0420078091F /* PEXViewPageModel.h */,
+				E71971BA217EF0420078091F /* PEXViewPageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7197165217D735A0078091F /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				E7197166217D735A0078091F /* PEXViewControllerDataTrackerProtocal.h */,
+			);
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+		E719716A217D735A0078091F /* AOPCategory */ = {
+			isa = PBXGroup;
+			children = (
+				E7197178217D735A0078091F /* UICollectionView+PEX.h */,
+				E7197170217D735A0078091F /* UICollectionView+PEX.m */,
+				E7197172217D735A0078091F /* UIControl+PEX.h */,
+				E719716B217D735A0078091F /* UIControl+PEX.m */,
+				E7197173217D735A0078091F /* UIApplication+PEX.h */,
+				E719716C217D735A0078091F /* UIApplication+PEX.m */,
+				E7197174217D735A0078091F /* UIViewController+PEX.h */,
+				E719716F217D735A0078091F /* UIViewController+PEX.m */,
+				E719716E217D735A0078091F /* UIView+Gesture.h */,
+				E7197175217D735A0078091F /* UIView+Gesture.m */,
+				E7197176217D735A0078091F /* UITableViewCell+PEX.h */,
+				E719716D217D735A0078091F /* UITableViewCell+PEX.m */,
+				E7197177217D735A0078091F /* UITableView+PEX.h */,
+				E7197171217D735A0078091F /* UITableView+PEX.m */,
+				E715417D2181676D00914999 /* UINavigationController+PEX.h */,
+				E715417E2181676D00914999 /* UINavigationController+PEX.m */,
+			);
+			path = AOPCategory;
+			sourceTree = "<group>";
+		};
+		E7197179217D735A0078091F /* Catogory */ = {
+			isa = PBXGroup;
+			children = (
+				E719717A217D735A0078091F /* NSString+MD5.h */,
+				E719717B217D735A0078091F /* NSString+MD5.m */,
+				E71971BD217F13000078091F /* NSObject+Dictionary.h */,
+				E71971BE217F13000078091F /* NSObject+Dictionary.m */,
+			);
+			path = Catogory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E719713E217D72F60078091F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71971BF217F13000078091F /* NSObject+Dictionary.h in Headers */,
+				E719718F217D735A0078091F /* PEXViewControllerDataTrackerProtocal.h in Headers */,
+				E7197191217D735A0078091F /* APEXDataCollectSDK.h in Headers */,
+				E7EA19F52186B4F2002F4507 /* PEXViewExposureRateAnalytor.h in Headers */,
+				E719718A217D735A0078091F /* PEXLogger.h in Headers */,
+				E719719C217D735A0078091F /* UIViewController+PEX.h in Headers */,
+				E719719B217D735A0078091F /* UIApplication+PEX.h in Headers */,
+				E71971A0217D735A0078091F /* UICollectionView+PEX.h in Headers */,
+				E719719A217D735A0078091F /* UIControl+PEX.h in Headers */,
+				E719719F217D735A0078091F /* UITableView+PEX.h in Headers */,
+				E719719E217D735A0078091F /* UITableViewCell+PEX.h in Headers */,
+				E7197196217D735A0078091F /* UIView+Gesture.h in Headers */,
+				E71971B3217ED0BE0078091F /* PEXKeyChain.h in Headers */,
+				E719718C217D735A0078091F /* PEXEventBasicModel.h in Headers */,
+				E7197192217D735A0078091F /* Macro.h in Headers */,
+				E71971B7217EEE640078091F /* PEXBaseModel.h in Headers */,
+				E719718E217D735A0078091F /* PrefixHeader.pch in Headers */,
+				E715417F2181676D00914999 /* UINavigationController+PEX.h in Headers */,
+				E719717D217D735A0078091F /* PEXQueue.h in Headers */,
+				E7197189217D735A0078091F /* PEXCommonUtil.h in Headers */,
+				E71971A1217D735A0078091F /* NSString+MD5.h in Headers */,
+				E71971BB217EF0420078091F /* PEXViewPageModel.h in Headers */,
+				E7197181217D735A0078091F /* PEXViewPathFilter.h in Headers */,
+				E7197182217D735A0078091F /* PEX_Aspects.h in Headers */,
+				E7197184217D735A0078091F /* PEXMethodSwizzlingUtil.h in Headers */,
+				E7EA19E72182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.h in Headers */,
+				E7197185217D735A0078091F /* PEXViewPathAnalytor.h in Headers */,
+				E7197148217D72F60078091F /* ApexCollect.h in Headers */,
+				E7197186217D735A0078091F /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E7197142217D72F60078091F /* ApexCollect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E719714B217D72F60078091F /* Build configuration list for PBXNativeTarget "ApexCollect" */;
+			buildPhases = (
+				E719713E217D72F60078091F /* Headers */,
+				E719713F217D72F60078091F /* Sources */,
+				E7197140217D72F60078091F /* Frameworks */,
+				E7197141217D72F60078091F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApexCollect;
+			productName = ApexCollect;
+			productReference = E7197143217D72F60078091F /* ApexCollect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E719713A217D72F60078091F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "yulin chi";
+				TargetAttributes = {
+					E7197142217D72F60078091F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E71971A3217D742B0078091F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = E719713D217D72F60078091F /* Build configuration list for PBXProject "ApexCollect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7197139217D72F60078091F;
+			productRefGroup = E7197144217D72F60078091F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7197142217D72F60078091F /* ApexCollect */,
+				E71971A3217D742B0078091F /* ApexCollectSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7197141217D72F60078091F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E71971A7217D74300078091F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n\n# 例如: FMK_NAME = \"MyFramework\"\n\nFMK_NAME=\"ApexCollect\"\n\n# Install dir will be the final output to the framework.\n\n# The following line create it in the root\n\nfolder of the current project.\n\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\n\nWRK_DIR=build\n\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\n\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n\n# Clean and Building both architectures.\n\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\n\nif [ -d \"${INSTALL_DIR}\" ]\n\nthen\n\nrm -rf \"${INSTALL_DIR}\"\n\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\n\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n\nopen \"${INSTALL_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E719713F217D72F60078091F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7197194217D735A0078091F /* UIApplication+PEX.m in Sources */,
+				E71971BC217EF0420078091F /* PEXViewPageModel.m in Sources */,
+				E7197180217D735A0078091F /* PEXMethodSwizzlingUtil.m in Sources */,
+				E71541802181676D00914999 /* UINavigationController+PEX.m in Sources */,
+				E719718B217D735A0078091F /* PEXEventBasicModel.m in Sources */,
+				E719718D217D735A0078091F /* PEXLogger.m in Sources */,
+				E7197195217D735A0078091F /* UITableViewCell+PEX.m in Sources */,
+				E719719D217D735A0078091F /* UIView+Gesture.m in Sources */,
+				E7197199217D735A0078091F /* UITableView+PEX.m in Sources */,
+				E7EA19F62186B4F2002F4507 /* PEXViewExposureRateAnalytor.m in Sources */,
+				E7EA19E82182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.m in Sources */,
+				E7197187217D735A0078091F /* PEX_Aspects.m in Sources */,
+				E7197183217D735A0078091F /* PEXCommonUtil.m in Sources */,
+				E7197193217D735A0078091F /* UIControl+PEX.m in Sources */,
+				E7197190217D735A0078091F /* APEXDataCollectSDK.m in Sources */,
+				E719717E217D735A0078091F /* Reachability.m in Sources */,
+				E71971A2217D735A0078091F /* NSString+MD5.m in Sources */,
+				E71971B4217ED0BE0078091F /* PEXKeyChain.m in Sources */,
+				E7197197217D735A0078091F /* UIViewController+PEX.m in Sources */,
+				E7197198217D735A0078091F /* UICollectionView+PEX.m in Sources */,
+				E719717F217D735A0078091F /* PEXViewPathAnalytor.m in Sources */,
+				E7197188217D735A0078091F /* PEXViewPathFilter.m in Sources */,
+				E71971C0217F13000078091F /* NSObject+Dictionary.m in Sources */,
+				E71971B8217EEE640078091F /* PEXBaseModel.m in Sources */,
+				E719717C217D735A0078091F /* PEXQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E7197149217D72F60078091F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E719714A217D72F60078091F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E719714C217D72F60078091F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WU6NZ66PC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = ApexCollect/PrefixHeader.pch;
+				INFOPLIST_FILE = ApexCollect/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapex.ios.ApexCollect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		E719714D217D72F60078091F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WU6NZ66PC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = ApexCollect/PrefixHeader.pch;
+				INFOPLIST_FILE = ApexCollect/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapex.ios.ApexCollect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		E71971A5217D742C0078091F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WU6NZ66PC;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E71971A6217D742C0078091F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WU6NZ66PC;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E719713D217D72F60078091F /* Build configuration list for PBXProject "ApexCollect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7197149217D72F60078091F /* Debug */,
+				E719714A217D72F60078091F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E719714B217D72F60078091F /* Build configuration list for PBXNativeTarget "ApexCollect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E719714C217D72F60078091F /* Debug */,
+				E719714D217D72F60078091F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71971A4217D742C0078091F /* Build configuration list for PBXAggregateTarget "ApexCollectSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71971A5217D742C0078091F /* Debug */,
+				E71971A6217D742C0078091F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E719713A217D72F60078091F /* Project object */;
+}
