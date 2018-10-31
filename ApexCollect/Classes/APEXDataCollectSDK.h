@@ -23,11 +23,22 @@ typedef NS_ENUM(NSUInteger, ApexTrackType) {
     ApexTrackType_Click = 1 << 1,
 };
 
+typedef NS_ENUM(NSInteger, ApexNetWorkStatus) {
+    ApexNetWorkStatus_NotReachable = 0,
+    ApexNetWorkStatus_WIFI,
+    ApexNetWorkStatus_4G,
+    ApexNetWorkStatus_3G,
+    ApexNetWorkStatus_2G,
+    ApexNetWorkStatus_GPRS,
+    ApexNetWorkStatus_UNKNOW
+};
+
 @interface APEXDataCollectSDK : NSObject
 + (instancetype)shareCollector;
 
 @property (nonatomic, copy, readonly) NSString *serverUrl;
-@property (nonatomic,strong, readonly) NSString *UUID; /**<  */
+@property (nonatomic, strong, readonly) NSString *UUID; /**<  */
+@property (nonatomic, assign) ApexNetWorkStatus currentNetStatus;
 
 /**
  初始化方法

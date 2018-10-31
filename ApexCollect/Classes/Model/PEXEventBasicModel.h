@@ -23,4 +23,9 @@
 @property (nonatomic, assign) NSInteger alpha; /**< 透明度 */
 @property (nonatomic, copy) NSString *actioneStr; /**< 触发action的字符串 */
 @property (nonatomic, copy) NSString *timeStamp; /**<  */
+
+- (NSString *)toJSON;
+- (NSDictionary *)toDictionary;
+- (instancetype)initWith:(NSDictionary *)dict;
+
 @end

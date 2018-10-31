@@ -21,6 +21,19 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		9DFDBD2E2187FEC700E0FD9F /* ApexTracksQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFDBD1D2187FEC700E0FD9F /* ApexTracksQueue.h */; };
+		9DFDBD2F2187FEC700E0FD9F /* ApexTrackingThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDBD1E2187FEC700E0FD9F /* ApexTrackingThread.m */; };
+		9DFDBD302187FEC700E0FD9F /* ApexTracksQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDBD1F2187FEC700E0FD9F /* ApexTracksQueue.m */; };
+		9DFDBD312187FEC700E0FD9F /* ApexTrackingThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFDBD202187FEC700E0FD9F /* ApexTrackingThread.h */; };
+		9DFDBD332187FEC700E0FD9F /* ApexBaseNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFDBD232187FEC700E0FD9F /* ApexBaseNetwork.h */; };
+		9DFDBD342187FEC700E0FD9F /* ApexNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFDBD242187FEC700E0FD9F /* ApexNetworkManager.h */; };
+		9DFDBD362187FEC700E0FD9F /* ApexBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDBD262187FEC700E0FD9F /* ApexBaseNetwork.m */; };
+		9DFDBD372187FEC700E0FD9F /* ApexNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDBD272187FEC700E0FD9F /* ApexNetworkManager.m */; };
+		9DFDBD382187FEC700E0FD9F /* ApexExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFDBD292187FEC700E0FD9F /* ApexExceptionHandler.h */; };
+		9DFDBD392187FEC700E0FD9F /* ApexExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDBD2A2187FEC700E0FD9F /* ApexExceptionHandler.m */; };
+		9DFDBD3A2187FEC700E0FD9F /* ApexSqliteManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFDBD2C2187FEC700E0FD9F /* ApexSqliteManager.h */; };
+		9DFDBD3B2187FEC700E0FD9F /* ApexSqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDBD2D2187FEC700E0FD9F /* ApexSqliteManager.m */; };
+		9DFDBD3E2188251B00E0FD9F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFDBD3D2188251B00E0FD9F /* SystemConfiguration.framework */; };
 		E715417F2181676D00914999 /* UINavigationController+PEX.h in Headers */ = {isa = PBXBuildFile; fileRef = E715417D2181676D00914999 /* UINavigationController+PEX.h */; };
 		E71541802181676D00914999 /* UINavigationController+PEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E715417E2181676D00914999 /* UINavigationController+PEX.m */; };
 		E7197148217D72F60078091F /* ApexCollect.h in Headers */ = {isa = PBXBuildFile; fileRef = E7197146217D72F60078091F /* ApexCollect.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -78,6 +91,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9DFDBD1D2187FEC700E0FD9F /* ApexTracksQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexTracksQueue.h; sourceTree = "<group>"; };
+		9DFDBD1E2187FEC700E0FD9F /* ApexTrackingThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexTrackingThread.m; sourceTree = "<group>"; };
+		9DFDBD1F2187FEC700E0FD9F /* ApexTracksQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexTracksQueue.m; sourceTree = "<group>"; };
+		9DFDBD202187FEC700E0FD9F /* ApexTrackingThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexTrackingThread.h; sourceTree = "<group>"; };
+		9DFDBD232187FEC700E0FD9F /* ApexBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexBaseNetwork.h; sourceTree = "<group>"; };
+		9DFDBD242187FEC700E0FD9F /* ApexNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexNetworkManager.h; sourceTree = "<group>"; };
+		9DFDBD262187FEC700E0FD9F /* ApexBaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexBaseNetwork.m; sourceTree = "<group>"; };
+		9DFDBD272187FEC700E0FD9F /* ApexNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexNetworkManager.m; sourceTree = "<group>"; };
+		9DFDBD292187FEC700E0FD9F /* ApexExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexExceptionHandler.h; sourceTree = "<group>"; };
+		9DFDBD2A2187FEC700E0FD9F /* ApexExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexExceptionHandler.m; sourceTree = "<group>"; };
+		9DFDBD2C2187FEC700E0FD9F /* ApexSqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexSqliteManager.h; sourceTree = "<group>"; };
+		9DFDBD2D2187FEC700E0FD9F /* ApexSqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexSqliteManager.m; sourceTree = "<group>"; };
+		9DFDBD3D2188251B00E0FD9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E715417D2181676D00914999 /* UINavigationController+PEX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PEX.h"; sourceTree = "<group>"; };
 		E715417E2181676D00914999 /* UINavigationController+PEX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PEX.m"; sourceTree = "<group>"; };
 		E7197143217D72F60078091F /* ApexCollect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApexCollect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,17 +167,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DFDBD3E2188251B00E0FD9F /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DFDBD1C2187FEC700E0FD9F /* ApexQueue */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDBD1D2187FEC700E0FD9F /* ApexTracksQueue.h */,
+				9DFDBD1E2187FEC700E0FD9F /* ApexTrackingThread.m */,
+				9DFDBD1F2187FEC700E0FD9F /* ApexTracksQueue.m */,
+				9DFDBD202187FEC700E0FD9F /* ApexTrackingThread.h */,
+			);
+			path = ApexQueue;
+			sourceTree = "<group>";
+		};
+		9DFDBD212187FEC700E0FD9F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDBD232187FEC700E0FD9F /* ApexBaseNetwork.h */,
+				9DFDBD242187FEC700E0FD9F /* ApexNetworkManager.h */,
+				9DFDBD262187FEC700E0FD9F /* ApexBaseNetwork.m */,
+				9DFDBD272187FEC700E0FD9F /* ApexNetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9DFDBD282187FEC700E0FD9F /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDBD292187FEC700E0FD9F /* ApexExceptionHandler.h */,
+				9DFDBD2A2187FEC700E0FD9F /* ApexExceptionHandler.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		9DFDBD2B2187FEC700E0FD9F /* ApexStorage */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDBD2C2187FEC700E0FD9F /* ApexSqliteManager.h */,
+				9DFDBD2D2187FEC700E0FD9F /* ApexSqliteManager.m */,
+			);
+			path = ApexStorage;
+			sourceTree = "<group>";
+		};
+		9DFDBD3C2188251A00E0FD9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDBD3D2188251B00E0FD9F /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E7197139217D72F60078091F = {
 			isa = PBXGroup;
 			children = (
 				E7197145217D72F60078091F /* ApexCollect */,
 				E7197144217D72F60078091F /* Products */,
+				9DFDBD3C2188251A00E0FD9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +256,10 @@
 		E719714E217D734F0078091F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9DFDBD1C2187FEC700E0FD9F /* ApexQueue */,
+				9DFDBD2B2187FEC700E0FD9F /* ApexStorage */,
+				9DFDBD282187FEC700E0FD9F /* Crash */,
+				9DFDBD212187FEC700E0FD9F /* Network */,
 				E7197168217D735A0078091F /* APEXDataCollectSDK.h */,
 				E7197167217D735A0078091F /* APEXDataCollectSDK.m */,
 				E719716A217D735A0078091F /* AOPCategory */,
@@ -289,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71971BF217F13000078091F /* NSObject+Dictionary.h in Headers */,
+				9DFDBD382187FEC700E0FD9F /* ApexExceptionHandler.h in Headers */,
 				E719718F217D735A0078091F /* PEXViewControllerDataTrackerProtocal.h in Headers */,
 				E7197191217D735A0078091F /* APEXDataCollectSDK.h in Headers */,
 				E7EA19F52186B4F2002F4507 /* PEXViewExposureRateAnalytor.h in Headers */,
@@ -296,11 +377,13 @@
 				E719719C217D735A0078091F /* UIViewController+PEX.h in Headers */,
 				E719719B217D735A0078091F /* UIApplication+PEX.h in Headers */,
 				E71971A0217D735A0078091F /* UICollectionView+PEX.h in Headers */,
+				9DFDBD2E2187FEC700E0FD9F /* ApexTracksQueue.h in Headers */,
 				E719719A217D735A0078091F /* UIControl+PEX.h in Headers */,
 				E719719F217D735A0078091F /* UITableView+PEX.h in Headers */,
 				E719719E217D735A0078091F /* UITableViewCell+PEX.h in Headers */,
 				E7197196217D735A0078091F /* UIView+Gesture.h in Headers */,
 				E71971B3217ED0BE0078091F /* PEXKeyChain.h in Headers */,
+				9DFDBD342187FEC700E0FD9F /* ApexNetworkManager.h in Headers */,
 				E719718C217D735A0078091F /* PEXEventBasicModel.h in Headers */,
 				E7197192217D735A0078091F /* Macro.h in Headers */,
 				E71971B7217EEE640078091F /* PEXBaseModel.h in Headers */,
@@ -313,10 +396,13 @@
 				E7197181217D735A0078091F /* PEXViewPathFilter.h in Headers */,
 				E7197182217D735A0078091F /* PEX_Aspects.h in Headers */,
 				E7197184217D735A0078091F /* PEXMethodSwizzlingUtil.h in Headers */,
+				9DFDBD3A2187FEC700E0FD9F /* ApexSqliteManager.h in Headers */,
+				9DFDBD332187FEC700E0FD9F /* ApexBaseNetwork.h in Headers */,
 				E7EA19E72182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.h in Headers */,
 				E7197185217D735A0078091F /* PEXViewPathAnalytor.h in Headers */,
 				E7197148217D72F60078091F /* ApexCollect.h in Headers */,
 				E7197186217D735A0078091F /* Reachability.h in Headers */,
+				9DFDBD312187FEC700E0FD9F /* ApexTrackingThread.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,13 +500,17 @@
 				E7197194217D735A0078091F /* UIApplication+PEX.m in Sources */,
 				E71971BC217EF0420078091F /* PEXViewPageModel.m in Sources */,
 				E7197180217D735A0078091F /* PEXMethodSwizzlingUtil.m in Sources */,
+				9DFDBD362187FEC700E0FD9F /* ApexBaseNetwork.m in Sources */,
 				E71541802181676D00914999 /* UINavigationController+PEX.m in Sources */,
 				E719718B217D735A0078091F /* PEXEventBasicModel.m in Sources */,
 				E719718D217D735A0078091F /* PEXLogger.m in Sources */,
 				E7197195217D735A0078091F /* UITableViewCell+PEX.m in Sources */,
 				E719719D217D735A0078091F /* UIView+Gesture.m in Sources */,
+				9DFDBD3B2187FEC700E0FD9F /* ApexSqliteManager.m in Sources */,
 				E7197199217D735A0078091F /* UITableView+PEX.m in Sources */,
+				9DFDBD392187FEC700E0FD9F /* ApexExceptionHandler.m in Sources */,
 				E7EA19F62186B4F2002F4507 /* PEXViewExposureRateAnalytor.m in Sources */,
+				9DFDBD372187FEC700E0FD9F /* ApexNetworkManager.m in Sources */,
 				E7EA19E82182B2DB002F4507 /* PEXViewPageVisibilityAnalytor.m in Sources */,
 				E7197187217D735A0078091F /* PEX_Aspects.m in Sources */,
 				E7197183217D735A0078091F /* PEXCommonUtil.m in Sources */,
@@ -428,11 +518,13 @@
 				E7197190217D735A0078091F /* APEXDataCollectSDK.m in Sources */,
 				E719717E217D735A0078091F /* Reachability.m in Sources */,
 				E71971A2217D735A0078091F /* NSString+MD5.m in Sources */,
+				9DFDBD2F2187FEC700E0FD9F /* ApexTrackingThread.m in Sources */,
 				E71971B4217ED0BE0078091F /* PEXKeyChain.m in Sources */,
 				E7197197217D735A0078091F /* UIViewController+PEX.m in Sources */,
 				E7197198217D735A0078091F /* UICollectionView+PEX.m in Sources */,
 				E719717F217D735A0078091F /* PEXViewPathAnalytor.m in Sources */,
 				E7197188217D735A0078091F /* PEXViewPathFilter.m in Sources */,
+				9DFDBD302187FEC700E0FD9F /* ApexTracksQueue.m in Sources */,
 				E71971C0217F13000078091F /* NSObject+Dictionary.m in Sources */,
 				E71971B8217EEE640078091F /* PEXBaseModel.m in Sources */,
 				E719717C217D735A0078091F /* PEXQueue.m in Sources */,

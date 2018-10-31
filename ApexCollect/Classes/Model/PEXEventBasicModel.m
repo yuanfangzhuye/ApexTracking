@@ -9,13 +9,73 @@
 #import "PEXEventBasicModel.h"
 
 @implementation PEXEventBasicModel
-- (instancetype)init{
-    if (self = [super init]) {
-//        self.DeviceName = [UIDevice currentDevice].model;
-//        self.OS = @"iOS";
-//        self.OSVersion = [UIDevice currentDevice].systemVersion;
-//        self.deviceFrame = [UIScreen mainScreen].bounds;
+
+- (instancetype)initWith:(NSDictionary *)dict
+{
+    self = [self init];
+    if (self) {
+        [dict enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+            if ([key isEqualToString:@"eventType"]) {
+                self.eventType = obj;
+            }
+            if ([key isEqualToString:@"ViewPath"]) {
+                self.ViewPath = obj;
+            }
+            if ([key isEqualToString:@"eventID"]) {
+                self.eventID = obj;
+            }
+            if ([key isEqualToString:@"title"]) {
+               self.title = obj;
+            }
+            if ([key isEqualToString:@"pageTitle"]) {
+                self.pageTitle = obj;
+            }
+            if ([key isEqualToString:@"actioneStr"]) {
+               self.actioneStr = obj;
+            }
+            if ([key isEqualToString:@"timeStamp"]) {
+                self.timeStamp = obj;
+            }
+//            if ([key isEqualToString:@"alpha"]) {
+//                _alpha = @"mobile";
+//            }
+//            if ([key isEqualToString:@"frame"]) {
+//                _frame = @"mobile";
+//            }
+        }];
     }
     return self;
 }
+
+- (NSDictionary *)toDictionary
+{
+    NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
+    [dict setValue:self.eventType forKey:@"eventType"];
+    [dict setValue:self.ViewPath forKey:@"ViewPath"];
+    [dict setValue:self.eventID forKey:@"eventID"];
+    [dict setValue:self.title forKey:@"title"];
+    [dict setValue:self.pageTitle forKey:@"pageTitle"];
+    [dict setValue:self.actioneStr forKey:@"actioneStr"];
+    [dict setValue:self.timeStamp forKey:@"timeStamp"];
+//    [dict setValue:self.timeStamp forKey:@"alpha"];
+//    [dict setValue:self.timeStamp forKey:@"frame"];
+    
+    return dict;
+}
+
+- (NSString *)toJSON
+{
+    NSError *error = nil;
+    NSDictionary *dict = [self toDictionary];
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dict options:0 error:&error];
+    
+    if (error != nil) {
+        return nil;
+    }
+    else {
+        NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        return jsonString;
+    }
+}
+
 @end

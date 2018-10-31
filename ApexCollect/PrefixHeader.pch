@@ -19,6 +19,7 @@
 #import "PEXQueue.h"
 #import "PEX_Aspects.h"
 #import "PEXBaseModel.h"
+#import "ApexSqliteManager.h"
 #import "NSObject+Dictionary.h"
 
 #endif /* PrefixHeader_pch */

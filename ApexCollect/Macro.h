@@ -9,6 +9,9 @@
 #ifndef Macro_h
 #define Macro_h
 
+#define ApexSqliteName @"chinapex.db"
+#define ApexBaseURL @"https://api.apex.com"
+#define ApexServerURL @"https://api.apex.com"
 
 #define OSVersion [UIDevice currentDevice].systemVersion.doubleValue
 

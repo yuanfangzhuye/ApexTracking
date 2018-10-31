@@ -41,12 +41,13 @@
 + (UITableView*)tableViewForCell:(UITableViewCell*)cell;
 + (UICollectionView *)collctionViewForItem:(UICollectionViewCell*)item;
 
+
 #pragma mark - NetWork
 
 /**
  获取当前网络状
  */
-//+ (PEXNetWorkStatus)getCurrentNetworkStatus;
++ (NSString *)getNetType;
 
 + (NSArray *)splitArray: (NSArray *)array withSubSize : (int)subSize;
 @end
